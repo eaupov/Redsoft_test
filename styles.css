@@ -1,0 +1,952 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: normal;
+	font-style: inherit;
+	vertical-align: baseline;
+	-webkit-font-smoothing: subpixel-antialiased!important;
+	-moz-osx-font-smoothing: grayscale!important;
+}
+
+html{text-rendering:optimizeLegibility;}
+
+body, html{
+	width: 100%;
+	background: #fff;
+	/*background: transparent url("images/test/test2.png") no-repeat scroll top center;*/
+}
+
+a{
+	text-decoration:none;
+	outline: none;
+}
+
+a img{
+	border:none
+}
+	
+.clr{
+	clear:both;
+}
+
+.dis_none{
+	display:none;
+}
+
+header{
+	width:100%;
+	height:100px;
+	/*background:#fff;*/
+	position:relative;
+}
+
+header .block-container{
+	width:1200px;
+	height:100%;
+	position:relative;
+	margin:0 auto;	
+}
+
+.main-logo{
+	background: url("images/main_logo.png") no-repeat top center;
+	width:155px;
+	height:56px;
+	float:left;
+	margin: 21px 0px 0px 23px;
+	position: relative;
+}
+
+nav{
+	position: relative;
+	float:left;
+	margin: 44px 0px 0px 37px;
+}
+
+nav a{
+	font-family: 'Nokia Sans S60 Bold';
+	font-size:14px;
+	color:#6f6f6f;
+	display:inline-block;
+	text-transform:uppercase;
+	margin-right: 28px;
+}
+
+nav a:hover, nav a.act{
+	color:#959595;
+}
+
+.menu-320{
+	display:none;
+}
+
+.soc-ico{
+	list-style-type:none;
+	float:left;
+	position:relative;
+	margin: 40px 0px 0px 86px;
+}
+
+.soc-ico li{
+	display:inline-block;
+	margin-right: 16px;
+}
+
+.soc-ico li a{
+	display:block;
+	width:30px;
+	height:30px;
+	background: url("images/header_soc_ico.png") no-repeat;
+}
+
+.soc-ico li a.soc-ico-fb{
+	background-position:0px 0px;
+}
+
+.soc-ico li a.soc-ico-tw{
+	background-position: -51px 0px;
+}
+
+.soc-ico li a.soc-ico-in{
+	background-position: -101px 0px;
+}
+
+.soc-ico li a.soc-ico-vk{
+	background-position: -150px 0px;
+}
+
+.recall{
+	background: #e3481d url("images/recall.png") no-repeat scroll 15px 8px;
+	font-family: 'Nokia Sans S60 Bold';
+	font-size:14px;
+	position:relative;
+	float:left;
+	height: 31px;
+	width: 136px;
+	text-transform: uppercase;
+	color: #FFF;
+	margin: 40px 0px 0px 14px;
+	line-height: 32px;
+	padding-left: 34px;
+	border-radius: 6px;
+}
+
+.content{
+	width:100%;
+	position:relative;
+}
+
+.main-slider{
+	width:100%;
+	height:850px;
+	position:relative;
+	-webkit-box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+}
+
+.main-slider-text{
+	width:260px;
+	height:230px;
+	position:absolute;
+	bottom: 83px;
+	left: 89px;
+}
+
+.main-slider-text h3{
+	font-family: 'Nokia Sans S60 Bold';
+	font-size:46px;	
+	color:#e3481d;
+	line-height: 44px;
+}
+
+.main-slider-text p{
+	font-family: 'Nokia Sans S60';
+	font-size:22px;	
+	color:#6f6f6f;
+	margin: 9px 0px 0px 0px;
+	line-height: 26px;
+}
+
+.main-slider-text a{
+	background: #e3481d url("images/recall.png") no-repeat scroll 22px 23px;
+	font-family: "Nokia Sans S60 Bold";
+	font-size: 14px;
+	position: relative;
+	float: left;
+	height: 59px;
+	width: 209px;
+	text-transform: uppercase;
+	color: #FFF;
+	margin: 16px 0px 0px 3px;
+	text-align: center;
+	line-height: 59px;
+	padding-left: 16px;
+	border-radius:5px;
+}
+
+.wrap-products{
+	width:100%;
+	height:700px;
+	position:relative;
+	background: transparent url("images/products_bg.jpg") no-repeat scroll top center;
+	-webkit-box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+}
+
+.products{
+	width:1200px;
+	height:100%;	
+	margin:0 auto;
+	position:relative;
+}
+
+.products p{
+	font-family: 'Nokia Sans S60';
+	color:#577992;
+	font-size:24px;
+	position:absolute;
+	margin: 122px 0px 0px 16px;
+	letter-spacing: -0.05px;
+	line-height: 27.5px;
+	width:600px;
+}
+
+.products p span{
+	font-family: 'Nokia Sans S60 Bold';	
+	letter-spacing: 0px;
+}
+
+.products ul{
+	list-style-type:none;
+	width:1200px;
+	position: absolute;
+	margin: 144px 0px 0px 5px;
+}
+
+.products ul li{
+	background: transparent url("images/products_all.png") no-repeat scroll;
+	display:inline-block;
+}
+
+.products ul li.product-type1{
+	width: 370px;
+	background-position: -10px -8px;
+}
+
+.products ul li.product-type2{
+	width: 358px;
+	background-position: -384px -8px;
+}
+
+.products ul li.product-type3{
+	width: 232px;
+	background-position: -746px -8px;
+}
+
+.products ul li.product-type4{
+	width: 202px;
+	background-position: -982px -8px;
+	padding-left: 21px;
+}
+
+.products li h2{
+	font-family: 'GlowSubsTitle';
+	color:#e3481d;
+	text-transform:uppercase;
+	text-align:center;
+	font-size:30px;
+	padding-top: 381px;
+}
+
+.wrap-cards{
+	width:100%;
+	position:relative;
+	height:361px;
+	-webkit-box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+	padding-top: 80px;
+}
+
+.cards{
+	position:relative;
+	margin:0 auto;
+	width:1200px;
+	height:100%;
+}
+
+.cards-ul{
+	display:block;
+	list-style-type:none;
+	position:relative;
+	margin: 0px 0px 0px 14px;
+}
+
+.cards-ul li{
+	display:inline-block;
+	width:373px;
+	background: transparent url("images/cards_bg.png") no-repeat scroll;
+	margin-right: 24px;
+}
+
+.cards-ul li.cards-type1{
+	background-position: 1px 0px;
+}
+
+.cards-ul li.cards-type2{
+	background-position: -400px 0px;
+}
+
+.cards-ul li.cards-type3{
+	margin-right:0px;
+	background-position: -800px 0px;
+}
+
+.cards-ul li h2{
+	font-family: 'GlowSubsTitle';
+	text-transform:uppercase;
+	font-size:26px;
+	color:#577992;
+	padding-top: 265px;
+}
+
+.wrap-combolunch{
+	width:100%;
+	height:798px;
+	position:relative;
+	-webkit-box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+	background: transparent url("images/combolunch_bg.jpg") no-repeat scroll top center;	
+}
+
+.combolunch{
+	position:relative;
+	width:1200px;
+	height:100%;
+	margin:0 auto;
+}
+
+.combolunch-text{
+	width:300px;
+	height:230px;
+	position:absolute;
+	right: 16px;
+	top: 140px;
+}
+
+.combolunch-text h3{
+	font-family: 'Nokia Sans S60 Bold';	
+	font-size:46px;
+	color:#587991;
+	margin-bottom: 10px;
+	line-height: 43px;
+}
+
+.combolunch-text p{
+	font-family: 'Nokia Sans S60';	
+	font-size:22px;
+	color:#7c7c7c;
+	line-height: 26px;
+}
+
+.combolunch-text a{
+	width:179px;
+	height:59px;
+	background: #577992 url("images/recall.png") no-repeat scroll 27px 21px;
+	display:block;
+	font-family: 'Nokia Sans S60 Bold';
+	font-size:14px;	
+	color:#fff;
+	text-transform:uppercase;
+	margin: 17px 0px 0px 1px;
+	border-radius: 6px;
+	line-height: 57px;
+	padding-left: 46px;
+}
+
+.events{
+	margin:0 auto;
+	position:relative;
+	width: 1184px;
+	height: 756px;
+	padding: 72px 0px 0px 13px;
+}
+
+.events h2{
+	float:left;
+	text-transform:uppercase;
+	font-size:26px;
+	color:#e3481d;
+	font-family: 'GlowSubsTitle';
+}
+
+.subscribe-320{
+	display:none;
+}
+
+.read-more-320{
+	display:none;
+}
+
+.read-more-320-block{
+	display:block;
+}
+
+.subscribe{
+	float:right;
+	margin-right: 14px;
+}
+
+.subscribe h4{
+	float:left;
+	font-size:14px;
+	color:#6f6f6f;
+	font-family: 'Nokia Sans S60 Bold';
+	text-transform:uppercase;
+	position: relative;
+	top: 6px;
+	margin-right: 19px;
+}
+
+.subscribe form{
+	float:left;
+}	
+
+.subscribe input{
+	width:224px;
+	height:30px;
+	border:1px solid #898989;
+	border-radius: 4px;
+	float:left;
+	font-family: 'Nokia Sans S60 Bold';	
+	margin-right: 24px;
+	padding-left: 14px;
+}
+
+.subscribe input[type="submit"]{
+	width:145px;
+	height:32px;
+	float:left;
+	font-size:14px;
+	color:#ffffff;
+	font-family: 'Nokia Sans S60 Bold';	
+	border:none;
+	text-transform:uppercase;
+	margin-right:0px;
+	background: #e3481d url("images/recall.png") no-repeat scroll 12px 8px;
+	padding-left: 19px;
+	cursor:pointer;
+}
+
+.events-block{
+	width:370px;
+	float:left;
+	background:transparent url("images/events_block.png") no-repeat scroll;	
+	margin: 49px 31px 62px 0px;
+}
+
+.events-block h4{
+	font-size:22px;
+	color:#577992;
+	font-family: 'Nokia Sans S60 Bold';	
+	padding: 257px 0px 0px 1px;
+}
+
+.events .events-block p{
+	font-size:18px;
+	color:#6f6f6f;
+	font-family: 'Nokia Sans S60';	
+	padding: 0px 0px 0px 1px;
+	margin-bottom:0px;
+}
+
+.events-block.events-block1{
+	background-position: 0px 0px;
+}
+
+.events-block.events-block2{
+	background-position: -401px 0px;
+}
+
+.events-block.events-block3{
+	background-position: -802px 0px;
+	margin: 49px 0px 0px 0px;
+}
+
+.events p{
+	font-size:16px;
+	color:#6f6f6f;
+	font-family: 'Nokia Sans S60';
+	margin-bottom: 18px;
+}
+
+.events span{
+	font-family: 'Nokia Sans S60 Bold';
+}
+
+.events ul{
+	list-style-type:none;
+}
+
+.events ul li{
+	background:transparent url("images/events_li.png") no-repeat scroll 0px 5px;
+	font-size:16px;
+	color:#6f6f6f;
+	font-family: 'Nokia Sans S60';
+	padding-left: 12px;
+	margin-bottom: -1px;
+}
+
+.wrap-maps{
+	width:100%;
+	position:relative;
+	margin:0 auto;
+	height:590px;
+	-webkit-box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+}
+
+.wrap-maps .ymaps-2-1-27-events-pane{
+	-webkit-box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);	
+}
+
+.wrap-maps h3{
+	font-family: 'PT Sans';
+	font-style:  normal;
+	font-weight: 700;
+	position:absolute;
+	font-size:46px;
+	color:#6f6f6f;
+	left: 6.5%;
+	top: 93px;
+	line-height: 46px;
+	z-index:100;
+}
+
+.wrap-footer{
+	height:185px;
+	width:100%;
+	position:relative;
+	-webkit-box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+}
+
+footer{
+	height:100%;
+	width:1200px;
+	position:relative;
+	margin:0 auto;
+}
+
+footer nav{
+	margin: 45px 0px 0px 16px;
+}
+
+footer nav a{
+	font-size:18px;
+	color:#6f6f6f;
+	margin-right: 34px;
+}
+
+.footer-phone{
+	font-size:14px;
+	color:#7c7c7c;
+	font-family: 'Nokia Sans S60';
+	position:absolute;
+	left: 15px;
+	top: 86px;
+	line-height: 24px;
+}
+
+.redsoft{
+	position: absolute;
+	right: 15px;
+	top: 43px;
+	padding-right: 70px;
+	background: transparent url("images/redsoft_logo.png") no-repeat scroll 100% 7px;
+}
+
+.redsoft p{
+	font-family: 'PT Sans';
+	font-style:  normal;
+	font-weight: 400;
+	font-size:18px;
+	color:#898989;
+	text-align: right;
+	line-height: 30px;
+}
+
+.redsoft a{
+	font-family: 'PT Sans';
+	font-style:  normal;
+	font-weight: 400;
+	font-size:18px;
+	color:#898989;
+	text-decoration:underline;
+}
+
+.redsoft a:hover{
+	text-decoration:none;
+}
+
+@media screen and (max-width: 320px) {
+	.content{
+		overflow:hidden;
+	}
+	
+	header{
+		height:50px;
+	}
+	
+	header .block-container{
+		width:320px;
+	}
+	
+	.main-logo{
+		background-size:contain;
+		width:100px;
+		height:36px;
+		margin: 7px 0px 0px 110px;
+	}
+	
+	header nav, .soc-ico, .recall{
+		display:none;
+	}
+	
+	.main-slider, .main-slider .jcarousel li{
+		height:216px!important;
+	}
+	
+	.main-slider-text{
+		width:140px;
+		height:110px;
+		bottom: 33px;
+		left: 10px;
+	}
+	
+	.main-slider-text h3{
+		font-size:22px;
+		line-height: 21px;
+	}
+	
+	.main-slider-text p{
+		font-size:12px;
+		line-height: 14px;
+		margin: 2px 0px 0px -1px;
+	}
+	
+	.main-slider-text a{
+		width:131px;
+		height:30px;
+		font-size:9px;
+		margin: 9px 0px 0px 0px;
+		line-height: 28px;
+		padding-left: 9px;
+		background-size:7px 10px;
+		background-position:12px 10px;
+	}
+	
+	.jcarousel-pagination a {
+		width:10px!important;
+		height:10px!important;
+	}
+	
+	.jcarousel-pagination{
+		bottom: 26px!important;
+	}
+	
+	.wrap-products{
+		height:415px;
+	}
+	
+	.products{
+		width:320px;
+	}
+	
+	.products p{
+		color:#6f6f6f;
+		font-size:14px;
+		margin: 28px 0px 0px 10px;
+		padding-right: 19px;
+		line-height: 16px;
+		width:255px;
+	}
+	
+	.products ul{
+		width:320px;
+		margin: 94px 0px 0px 5px;
+	}
+	
+	.products li h2{
+		font-size:16px;
+		padding-top: 91px;
+	}
+	
+	.products ul li.product-type1 {
+		width: 168px;
+		background-position: 9px -49px;
+		background-size: 492px;
+	}
+	
+	.products ul li.product-type2 {
+		width: 139px;
+		background-position: -157px -49px;
+		background-size: 492px;
+	}
+	
+	.products ul li.product-type3 {
+		width: 143px;
+		background-position: -301px 14px;
+		background-size: 537px auto;
+		margin-left: 12px;
+	}
+	
+	.products ul li.product-type4 {
+		width: 88px;
+		background-position: -432px 14px;
+		background-size: 529px auto;
+		margin-left: 43px;
+		padding-left: 0px;
+	}	
+	
+	.products ul li.product-type3 h2, .products ul li.product-type4 h2 {
+		padding-top: 164px;
+	}
+	
+	.wrap-cards{
+		height:179px;
+		padding-top: 29px;
+		overflow:hidden;
+	}
+	
+	.cards{
+		width:320px;
+	}
+	
+	.wrap-combolunch{
+		height:216px;
+		background-size:cover;
+	}
+	
+	.combolunch-text {
+		width: 160px;
+		height: 120px;
+		position: absolute;
+		right: 5px;
+		top: 29px;
+	}
+	
+	.combolunch-text h3{
+		font-size:22px;
+		color:#587991;
+		line-height: 21px;
+		margin-bottom: 4px;
+	}
+	
+	.combolunch-text p{
+		color:#6f6f6f;
+		font-size:12px;
+		line-height: 15px;
+	}
+	
+	.combolunch-text a{
+		width:128px;
+		height:30px;
+		margin: 8px 0px 0px 1px;
+		font-size:10px;
+		line-height: 29px;
+		padding-left: 22px;
+		background-size:7px 10px;
+		background-position:11px 10px;
+	}
+	
+	.combolunch{
+		width:320px;
+		
+	}
+	
+	.events{
+		width:320px;
+		padding: 24px 0px 10px;
+		height:auto;
+	}
+	
+	.events h2{
+		font-size:16px;
+		padding-left: 60px;
+		margin-bottom: 14px;
+	}
+	
+	.events-block{
+		display:none;
+	}
+	
+	.cards-ul{
+		display:none;
+	}
+	
+	.subscribe{
+		display:none;
+	}
+	
+	.subscribe-320{
+		display:block;
+		width:200px;
+		height:54px;
+		margin: 7px auto 31px;
+		position:relative;
+	}
+	
+	.subscribe-320 h4{
+		font-size:14px;
+		color:#6f6f6f;
+		font-family: 'Nokia Sans S60';
+		text-transform:uppercase;
+		letter-spacing: 0.6px;
+		margin-bottom: 11px;
+	}
+	
+	.subscribe-320 input{
+		width: 160px;
+		height:23px;
+		border:1px solid #898989;
+		border-radius: 4px;
+		float:left;
+		font-family: 'Nokia Sans S60';	
+		margin-right: 24px;
+		padding-left: 8px;
+		font-size:14px;
+		color:#6f6f6f;
+		padding-right: 30px;
+	}
+
+	.subscribe-320 input[type="submit"]{
+		width:25px;
+		height:25px;
+		color:#ffffff;
+		border:none;
+		margin-right:0px;
+		background: #e3481d url("images/recall.png") no-repeat scroll 12px 8px;
+		background-size:7px 10px;
+		cursor:pointer;
+		border-radius: 0px 4px 4px 0px;
+		position:absolute;
+		right:0px;
+		bottom:0px;
+		padding:0px;
+	}
+	
+	.read-more-320{
+		display:inline-block;
+		font-size:10px;
+		color:#587991;
+		font-family: 'Nokia Sans S60 Bold';	
+		text-transform:uppercase;
+		background: transparent url("images/read-more-320.png") no-repeat scroll 12px 4px;
+		position: relative;
+		margin: 0px 0px 10px -3px;
+		padding-left: 28px;
+	}
+	
+	.read-more-320-block{
+		display:none;
+	}
+	
+	.events p{
+		font-size:11px;
+		color:#6f6f6f;
+		padding:0px 10px;
+		margin-bottom: 10px;
+	}
+	
+	.events ul{
+		margin: 0px 0px 0px 12px;
+	}
+	
+	.events ul li{
+		font-size:11px;
+		background-size: 6px;
+		background-position:2px 4px;
+	}
+	
+	.wrap-maps{
+		height:301px;
+		width:320px;
+	}	
+	
+	.wrap-maps h3{
+		font-size:24px;
+		color:#6f6f6f;
+		left: 3.5%;
+		top: 26px;
+		line-height: 26px;
+		z-index: 100;
+		width: 118px;
+	}
+	
+	.wrap-footer{
+		height:138px;
+	}
+	
+	footer{
+		width:320px;
+		
+	}
+	
+	footer nav{
+		margin: 24px 0px 0px 10px;
+	}
+	
+	footer nav a{
+		font-size:14px;
+		margin-right: 24px;
+		margin-bottom: 4px;
+	}
+	
+	.redsoft{
+		width:30px;
+		height:30px;
+		padding-right: 0px;
+		right: 10px;
+		top: 98px;
+		background-size:30px 30px;
+		background-position:right top;
+	}
+	
+	.redsoft a, .redsoft p{
+		display:none;
+	}
+	
+	.footer-phone{
+		font-size:12px;
+		left: 10px;
+		top: 95px;
+		line-height: 18px;
+	}
+	
+	.menu-320{
+		display:block;
+		background: transparent url("images/header_menu_320.png") no-repeat scroll 0px 0px;
+		width:25px;
+		height:18px;
+		cursor:pointer;
+		position:absolute;
+		right: 10px;
+		top: 16px;
+	}
+	
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1401px){
+	.wrap-combolunch, .wrap-products{
+		background-size:cover;
+	}
+}

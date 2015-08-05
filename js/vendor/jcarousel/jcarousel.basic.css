@@ -1,0 +1,218 @@
+.jcarousel-wrapper {
+	margin: 0px auto 0px;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.cards .jcarousel-wrapper, .events .jcarousel-wrapper{
+	display:none;
+}
+
+/** Carousel **/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	height: 100%;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+	margin: 0;
+	height: 850px;
+	position:relative;
+	-webkit-box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 8px 8px -7px rgba(0,0,0,0.75);
+}
+
+.main-slider .jcarousel li{
+	background:url(slider_img.jpg) no-repeat 0px 0px transparent;
+	background-size:cover;
+}
+
+/** Carousel Controls **/
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+    position: absolute;
+    bottom: 100px;
+    width: 15px;
+    height: 25px;
+    text-decoration: none;
+}
+
+.jcarousel-control-prev {
+    left: -24px;
+	background:url(prev_arrow.png) no-repeat 0px 0px transparent;
+}
+
+.jcarousel-control-next {
+    right: -22px;
+	background:url(next_arrow.png) no-repeat 0px 0px transparent;
+}
+
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+    display: block;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+    display:none;
+    cursor: default;
+}
+
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+    position: relative;
+	bottom: 32px;
+	text-align: center;
+}
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 100px;
+    margin-right: 9px;
+	width:15px;
+	height:15px;
+	background: #fff;
+}
+
+
+.jcarousel-pagination a.active, .jcarousel-pagination a:hover {
+    background: #e3481d;
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 320px) {
+	.cards .jcarousel-wrapper {
+		display:block;
+		width:201px;
+	}
+	
+	.cards .jcarousel li{
+		width:201px;
+		height:179px;
+		box-shadow:none;
+	}	
+	
+	.cards .jcarousel li h3{
+		font-size:14px;
+		color:#577992;
+		font-family: 'GlowSubsTitle';
+		padding-top: 12px;
+	}
+	
+	.cards .jcarousel .cards-slider-image{
+		width:201px;
+		height:130px;
+		background:url(cards_bg.png) no-repeat transparent;
+	}	
+	
+	.cards .jcarousel .cards-slider-image.cards-slider-image1{
+		background-position:0px 0px;
+		background-size: 630px auto;
+	}	
+	
+	.cards .jcarousel .cards-slider-image.cards-slider-image2{
+		background-position:-214px 0px;
+		background-size: 630px auto;
+	}	
+	
+	.cards .jcarousel .cards-slider-image.cards-slider-image3{
+		background-position:-430px 0px;
+		background-size: 630px auto;
+	}
+	
+	.cards .jcarousel-control-prev,
+	.cards .jcarousel-control-next {
+		bottom:100px;
+	}
+	
+	.cards .jcarousel-control-prev{
+		left: -38px;
+	}
+	
+	.cards .jcarousel-control-next{
+		right: -39px;
+	}	
+	
+	.events .jcarousel-wrapper {
+		display:block;
+		width:201px;
+		height:auto;
+	}
+	
+	.events .jcarousel li{
+		width:201px;
+		box-shadow:none;
+		background:none;
+		padding-left: 0px;
+		height: auto;
+	}	
+	
+	.events .jcarousel li h4{
+		font-size:16px;
+		color:#577992;
+		font-family: 'Nokia Sans S60 Bold';
+		margin-top: 6px;
+	}	
+	
+	.events .jcarousel li p{
+		font-size:14px;
+		color:#6f6f6f;
+		font-family: 'Nokia Sans S60';
+		margin-top: -1px;
+		line-height: 16px;
+		padding:0px;
+		margin-bottom: 17px;
+	}
+	
+	.events .jcarousel .events-slider-image{
+		width:201px;
+		height:134px;
+		background:url(events_block.png) no-repeat transparent;
+	}	
+	
+	.events .jcarousel .events-slider-image.events-slider-image1{
+		background-position:0px 0px;
+		background-size: 640px auto;
+	}	
+	
+	.events .jcarousel .events-slider-image.events-slider-image2{
+		background-position:-220px 0px;
+		background-size: 640px auto;
+	}	
+	
+	.events .jcarousel .events-slider-image.events-slider-image3{
+		background-position:-438px 0px;
+		background-size: 640px auto;
+	}
+	
+	.events .jcarousel-control-prev,
+	.events .jcarousel-control-next {
+		top: 55px;
+	}
+	
+	.events .jcarousel-control-prev{
+		left: -38px;
+	}
+	
+	.events .jcarousel-control-next{
+		right: -39px;
+	}
+}

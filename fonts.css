@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Nokia Sans S60 Bold';
+    src: url('fonts/NokiaSansS60Bold.eot');
+    src: url('fonts/NokiaSansS60Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/NokiaSansS60Bold.woff2') format('woff2'),
+         url('fonts/NokiaSansS60Bold.woff') format('woff'),
+         url('fonts/NokiaSansS60Bold.ttf') format('truetype'),
+         url('fonts/NokiaSansS60Bold.otf') format('opentype'),
+         url('fonts/NokiaSansS60Bold.svg#NokiaSansS60Bold') format('svg');
+}
+
+@font-face {
+    font-family: 'Nokia Sans S60';
+    src: url('fonts/NokiaSansS60.eot');
+    src: url('fonts/NokiaSansS60.eot?#iefix') format('embedded-opentype'),
+         url('fonts/NokiaSansS60.woff2') format('woff2'),
+         url('fonts/NokiaSansS60.woff') format('woff'),
+         url('fonts/NokiaSansS60.ttf') format('truetype'),
+         url('fonts/NokiaSansS60.otf') format('opentype'),
+         url('fonts/NokiaSansS60.svg#NokiaSansS60') format('svg');
+}
+
+@font-face {
+    font-family: 'GlowSubsTitle';
+    src: url('fonts/GlowSubsTitle.eot');
+    src: url('fonts/GlowSubsTitle.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GlowSubsTitle.woff2') format('woff2'),
+         url('fonts/GlowSubsTitle.woff') format('woff'),
+         url('fonts/GlowSubsTitle.ttf') format('truetype'),
+         url('fonts/GlowSubsTitle.otf') format('opentype'),
+         url('fonts/GlowSubsTitle.svg#GlowSubsTitle') format('svg');
+}
