@@ -51,6 +51,7 @@ $(function(){
 	
 	$('.read-more-320').click(function(){
 		$(".read-more-320-block").slideDown(1000);
+		$(this).addClass('open');
 	});	
 	
 });

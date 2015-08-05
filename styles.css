@@ -856,6 +856,10 @@ footer nav a{
 		padding-left: 28px;
 	}
 	
+	.read-more-320.open{
+		background-position:12px -39px;
+	}
+	
 	.read-more-320-block{
 		display:none;
 	}
